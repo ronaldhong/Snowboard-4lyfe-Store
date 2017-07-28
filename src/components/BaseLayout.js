@@ -20,7 +20,7 @@ class BaseLayout extends Component {
               <div className="title">
                 <img id="snow_logo" src="https://rlv.zcache.com/snowboarding_snowboard_evolution_classic_round_sticker-rf371c27d6ea04a7e98d0ccab2c6cdc4e_v9waf_8byvr_324.jpg" height="140" width="200"/>
                 <div className="store_name">
-                  <h1 id="border">Border Land</h1>
+                  <h1 id="border">Snowboard 4lyfe</h1>
                   {/* <h1 id="land">Land</h1> */}
                 </div>
               </div>
