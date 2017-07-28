@@ -1,0 +1,43 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav a{
+  border: 1px solid black;
+  width:150px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  background: linear-gradient(135deg, #d8d4d4, white);
+  text-decoration: none;
+}
+
+.header{
+  text-align: center;
+}
+.baselayout{
+  background: linear-gradient(135deg, #2d2a2a, #847d7d, white);
+}
+
+#snow_logo{
+  padding-top: 20px;
+}
+.store_name{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 30px;
+  font-size: 2.5em;
+  transform: rotate(3deg);
+  word-spacing: 20px;
+}
+#border{
+
+}
+#land{
+
+}
