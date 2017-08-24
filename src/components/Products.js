@@ -48,7 +48,7 @@ render(){
         <div>
           {this.state.data.map((product)=>
             <Link to={`/products/${product.name}`} style={{ textDecoration: 'none' }}>
-            <div className="product_list">
+            <div className="product_list" key={product.title}>
                 <h3 >{product.name}</h3>
                 <div className="product_detail">
                   <div>

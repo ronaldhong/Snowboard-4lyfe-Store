@@ -80,7 +80,7 @@ const products =[
     description: ["Car Window Laptop Vinyl Decal Sticker", "High quality vinyl (lasts 3 to 5 years)", "Easy to Install", "Includes Detailed Application Instructions", "Made in America"],
     price: "$3.99",
     img:"https://images-na.ssl-images-amazon.com/images/I/61LDNrVnxTL._SY355_.jpg"
-  },
+  }
 ]
 
 export default products

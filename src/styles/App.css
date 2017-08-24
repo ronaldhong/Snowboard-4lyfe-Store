@@ -1,6 +1,7 @@
 body{
   margin-left: 50px;
   width: 91%;
+  height: 70%;
   background-color: #d6cfcf;
 }
 
@@ -148,7 +149,7 @@ h4{
   margin-top: 30px;
   margin-right: 20px;
   text-align:right;
-  color: white;
+  color: black;
 }
 /**Features**/
 .feature_item{

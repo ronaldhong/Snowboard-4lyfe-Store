@@ -10,21 +10,23 @@ import Contact from './components/Contact'
 import Products from "./components/Products"
 import showProduct from "./components/showProduct"
 
+/////
+import {Provider} from 'react-redux'
+import store from './store'
+
+
 ReactDOM.render(
-  <BrowserRouter>
-    <BaseLayout>
-      <Switch>
-        <Route path="/home" component={Home} />
-        <Route exact path="/" component={About}/>
-        <Route path="/contact" component={Contact} />
-        <Route exact path="/products" component={Products}/>
-        <Route path="/products/:id" component={showProduct}/>
-      </Switch>
-    </BaseLayout>
-  </BrowserRouter>
-
-
-
-
-  , document.getElementById('root'));
+  // <Provider store={store}>
+    <BrowserRouter>
+      <BaseLayout>
+        <Switch>
+          <Route path="/home" component={Home} />
+          <Route exact path="/" component={About}/>
+          <Route path="/contact" component={Contact} />
+          <Route exact path="/products" component={Products}/>
+          <Route path="/products/:id" component={showProduct}/>
+        </Switch>
+      </BaseLayout>
+    </BrowserRouter>
+, document.getElementById('root'));
 registerServiceWorker();

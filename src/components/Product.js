@@ -14,6 +14,10 @@ const Product = (props) => {
         <div>Description:</div>
         <div>{product.description}</div>
         <div style={{"margin-top":"10px"}}>Price: {product.price}</div>
+        <div>
+          {/* <button onClick={this.handleIncrement}>+</button>
+          <button onClick={this.handleDecrement}>-</button> */}
+        </div>
       </div>
       <div style={{"text-align":"center", "padding-top":"20px"}}>
         <a href="/products" >Back to Store</a>
